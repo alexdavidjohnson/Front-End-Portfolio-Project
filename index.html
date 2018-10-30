@@ -1,83 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Alex David</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-
-
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+  
 </head>
+
+
+
 <body>
-    <main class="wrapper">
-        <!-- Navigation -->
-        <header>
+    <!-- Navigation -->
+    <header>
+        <div class="header-grid">
             <div class="header-logo">
-                <img src="img/logo_2x.png" alt="Image of the logo for the website"> 
+                <img src="img/logo_2x.png" alt="Image of the logo for the website">
             </div>
             <nav class="main-nav">
                 <ul>
                     <li>
-                        <a href="#">Resume</a>
+                        <a target="_blank" href="https://alxdavid.com/wp-content/uploads/2018/02/Alex-D-Johnson-Resume-2018.pdf">Resume</a>
                     </li>
                     <li>
-                        <a href="#">Connect</a>
+                        <a href="mailto:heyalxdavid@gmail.com">Connect</a>
                     </li>
                 </ul>
             </nav>
-        </header>
+        </div>
+    </header>
+    <main>
         <!-- Hero Section -->
-        <section class="hero">
+        <section class="hero-section">
             <div class="hero-grid">
-            <p>Front-End Developer</p>
-            <div class=social-media>
-                <div>
-                    <a href="https://github.com/alexdavidjohnson">
-                        <i class="icon fab fa-github-alt"></i>
-                    </a>
-                    <a href="https://github.com/alexdavidjohnson">
-                        <i class="icon fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://github.com/alexdavidjohnson">
-                        <i class="icon fab fa-dribbble"></i>
-                    </a>
-                    <a href="https://github.com/alexdavidjohnson">
-                        <i class="icon far fa-envelope"></i>
-                    </a>
+                <div class="hero-content">
+                    <p class="hero-title">Front-End Developer</p>
+                    <div class=social-media>
+                        <a target="_blank" href="https://github.com/alexdavidjohnson">
+                            <i class="fab fa-github-alt"></i>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/alex-david-johnson-3350782a">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a target="_blank" href="https://dribbble.com/thealxdavid">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                        <a href="mailto:heyalxdavid@gmail.com">
+                            <i class="far fa-envelope"></i>
+                        </a>
+                    </div>
                 </div>
-            </div>
             </div>
         </section>
         <!-- Work Section -->
-        <section class="work">
-            <div class="work-title">
+        <section class="work-section">
+            <div class="section-title">
                 <p>Featured Work</p>
             </div>
             <div class="work-grid">
-                <div class="work-card">
+                    <div class="card-1 work-card" onclick="projectOne()">
+                        <p class="card-subhead">Front-End</p>
+                        <p class="card-header">Portfolio Website</p>
+                    
+                    </div>
+                <div class="card-2 work-card" onclick="projectTwo()">
+                    <p class="card-subhead">Development</p>
+                    <p class="card-header">Project Name</p>
+                </div>
+
+                <div class="card-3 work-card" onclick="projectThree()">
+                    <p class="card-subhead">Development</p>
+                    <p class="card-header">Project Name</p>
+                </div>
+                <!-- <div class="card-4 work-card">
                     <p>Project Name</p>
                 </div>
-                <div class="work-card">
+                <div class="card-5 work-card">
                     <p>Project Name</p>
-                </div>
-                <div class="work-card">
-                    <p>Project Name</p>
-                </div>
-                <div class="work-card">
-                    <p>Project Name</p>
-                </div>
+                </div> -->
             </div>
-            
         </section>
         <!-- Footer -->
         <footer>
-            <p>© COPYRIGHT 2018 ALEXDAVID</p>
+            <p>© COPYRIGHT 2018 ALEXDAVID <span style="color: #e25555;">&#9829;</span></p>
         </footer>
     </main>
 </body>
+
 </html>
+
